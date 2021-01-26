@@ -1,4 +1,4 @@
-Hours
+Clockyard
 =====
 
 [![Build Status](https://travis-ci.org/DefactoSoftware/Hours.svg?branch=master)](https://travis-ci.org/DefactoSoftware/Hours)
@@ -11,35 +11,10 @@ Hours
 Maintenance mode
 ----------------
 
-This project is now in maintenance mode. We will not accept new feature
-development or contributions other than dependency updates, security fixes and
-major bug fixes.
-
-Hours is a dead simple project based time tracking application that we use
-for internal time-tracking. It allows users to register how many hours they've
+Simple project based time tracking application.It allows users to register how many hours they've
 worked on a project with a certain category (think `design`, `software development`,
 `testing` for software teams) and add any tag they like to it. This gives us a lot of
 insight on how we spend our time on different projects.
-
-It looks like this:
-
-<img src="http://i.imgur.com/UGotYJu.png" width=500 alt="Projects overview" />
-
-<img src="http://i.imgur.com/SZd6Oaw.png" width=500 alt="Single project" />
-
-<img src="http://i.imgur.com/gJxWWnc.png" width=500 alt="Entries" />
-
-<img src="http://i.imgur.com/QfMsVjb.png" width=500 alt="Audit Log" />
-
-<img src="http://i.imgur.com/y4RLCEg.png" width=500 alt="Entry" />
-
-
-
-
-Roadmap
--------
-
-As we're using Hours we're constantly thinking of ways to improve it and we'd love to hear your thoughts!
 
 System Dependencies
 -------------------
@@ -116,6 +91,4 @@ Guidelines
 - Commit messages are written in the imperative with a short, descriptive title. Good => `Return a 204 when updating a question`, bad => `Changed http response` or `I updated the http response on the update action in the QuestionController because we're not showing any data there`. The first line should always be 50 characters or less and that it should be followed by a blank line.
 - Please localize all strings and add i18n keys to the locale files sorted by key in ascending order
 
-License
--------
-Hours is distributed under the MIT license.
+
